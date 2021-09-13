@@ -7,11 +7,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tugas CSS - Niomic</title>
   <link rel="stylesheet" href="css/bootstrap.css">
+  <style>
+    .container {
+      margin-top: 50px;
+    }
+
+    .side1 {
+      margin-right: -200px;
+    }
+
+    .side2 {
+      margin-left: -200px;
+    }
+  </style>
 </head>
 
 <body>
   <div class="container row align-items-center mx-auto">
-    <div class="col text-center">
+    <div class="col text-center side1">
       <p class="h3">Rounded Image</p>
       <img src="jakarta.jpg" alt="" class="rounded" width="300px" height="300px">
     </div>
@@ -19,7 +32,7 @@
       <p class="h3">Circle Image</p>
       <img src="lampung.jpg" alt="" class="rounded-circle" width="300px" height="300px">
     </div>
-    <div class="col text-center">
+    <div class="col text-center side2">
       <p class="h3">Thumbnail Image</p>
       <img src="yogyakarta.jpg" alt="" class="img-thumbnail" width="350px" height="150px">
     </div>
